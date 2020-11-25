@@ -1,9 +1,45 @@
-var age = prompt("What is your age?");
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+console.log(array);
+array.shift();
+console.log(array);
+array.sort();
+array.push("Kiwi");
+array.shift();
+array.reverse();
 
-if (Number(age) <= 18) {
-	alert("Sorry, you are too yound to drive this car. Powering off");
-} else if (Number(age) >= 18) {
-	alert("Powering On. Enjoy the ride!");
-} else if (age === 18) {
-	alert("Congratulations on your first year of driving. Enjoy the ride!");
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+console.log(array2[1][1][0]);
+
+var database = [ {
+	username: "Sahelman",
+
+	password: "yourmothergay"
 }
+]
+
+var newsfeed = [
+{
+	username: "XxXSUCcYourMoM2000",
+
+	password: "gamergirl200",
+
+	timeline: "2018"
+},
+{
+	username: "Martin2Sator",
+
+	password: "ashek2013",
+
+	timeline: "2016"
+},
+{
+	username: "Wyomingman",
+
+	password: "wyiomingcool",
+
+	timeline: "2017"
+}
+];
+
+var array3 = ["designer", "flow"];
+console.log(array3);
